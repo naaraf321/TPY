@@ -1,0 +1,10 @@
+import type {Metadata} from 'next';
+export const metadata:Metadata={title:'Privacy & location'};
+export default function Privacy(){return <main style={{maxWidth:780,margin:'40px auto',padding:24,lineHeight:1.8}}><a href="/">← Home</a><h1>Privacy and location — beta disclosure</h1>
+ <p>Location permission is required to enter this location-first social experience. If you decline, you cannot proceed; you may withdraw permission through browser settings. Guest sessions can explore the public map and public posts, but cannot open member profiles or send messages.</p>
+ <p><strong>Location data:</strong> Signed-in accounts store device latitude, longitude and location accuracy in an access-restricted table. The public map displays only an approximate, deliberately offset area marker. Exact building and floor locations are not shown. You can switch off your public map marker in Profile.</p>
+ <p><strong>Accounts:</strong> Google and Facebook provide authentication; users choose an independent public persona. Conversations, friend requests, likes, comments, stories and notifications are stored in Supabase. Signed-in profile views may notify the profile owner at most once per day, subject to their notification preferences.</p>
+ <p><strong>Media and messages:</strong> Media files are held in private buckets with time-limited authorized access URLs. Direct messages are restricted to conversation members through database policies, but are <strong>not end-to-end encrypted</strong>. Stories stop appearing after 24 hours; expired storage objects require a server-side retention cleanup.</p>
+ <p><strong>Choices:</strong> You may hide public map pins, block other members, control notification preferences, request account deletion and download a partial data export. Deletion requests require staff processing and are not immediate.</p>
+ <p>This document is a development-stage disclosure and requires legal review, an operator contact address, complete data-subject request handling, a retention schedule and relevant local privacy notices before a public launch.</p>
+ </main>;}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="86" viewBox="0 0 410 86">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="70" y2="80" gradientUnits="userSpaceOnUse"><stop stop-color="#ff89c5"/><stop offset="1" stop-color="#ed3294"/></linearGradient></defs>
+ <path d="M12 11 26 23Q35 19 44 23L58 11 60 36Q65 46 59 57L45 73H25L11 57Q5 46 10 36Z" fill="url(#g)"/>
+ <path d="M21 40Q25 55 35 67Q45 55 49 40" fill="none" stroke="#250c24" stroke-width="5" stroke-linecap="round"/>
+ <path d="M22 33q6 0 9 6m17-6q-6 0-9 6" fill="none" stroke="#250c24" stroke-width="5" stroke-linecap="round"/>
+ <text x="80" y="54" font-family="Georgia,serif" fill="#fff2f8" font-size="29">The</text>
+ <text x="139" y="56" font-family="Georgia,serif" fill="#fb64b5" font-style="italic" font-size="43">Pussy</text>
+ <text x="264" y="54" font-family="Georgia,serif" fill="#fff2f8" font-size="29">Is Yours</text>
+</svg>

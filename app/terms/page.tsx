@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';
+export const metadata:Metadata={title:'Community terms'};
+export default function Terms(){return <main style={{maxWidth:780,margin:'40px auto',padding:24,lineHeight:1.8}}><a href="/">← Home</a><h1>The Pussy Is Yours — testing terms</h1><p>During beta testing, do not impersonate another person, threaten or harass members, publish intimate content without consent, or share another person’s exact location.</p><p>Members may report and block others. Accounts and content may be reviewed for abuse. Features may change before public launch.</p><p>This is a provisional beta disclosure, not a substitute for legally reviewed production terms and community safety policies.</p></main>;}
